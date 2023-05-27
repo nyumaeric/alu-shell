@@ -1,2 +1,2 @@
-#!/bin/blash
-ls -lna
+#!/bin/bash
+ls -al. ../boot
