@@ -1,6 +1,2 @@
 #!/bin/bash
-find . -type f -name "*.gif" -exec sh -c 'for file do
-  filename="${file##*/}"  # Extract the filename from the path
-  filename="${filename%.*}"  # Remove the file extension
-  echo "$filename"  # Print the filename
-done' sh {} + | LC_ALL=C sort -f
+find . -type f -name "*gif" | rev | cut -d "/" -f 1 | cut -d '.' 2- | rev | LC_ALL=C sort -f
