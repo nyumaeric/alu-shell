@@ -1,2 +1,3 @@
 #!/usr/bin/env bash 
-#/* Print: Best School */ for ((i=0; i<10; i++)) echo " Best School"
+#/* Print: Best School */ for ((i=0; i<10; i++))
+echo "Best School"
