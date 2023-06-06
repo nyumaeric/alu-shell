@@ -1,2 +1,2 @@
-#!/bin/bash
-echo "1-for_best_school"
+#!/usr/bin/env bash
+echo "Best School"
