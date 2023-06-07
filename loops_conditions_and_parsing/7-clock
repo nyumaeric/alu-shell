@@ -10,3 +10,4 @@ Done
 ((hours++))
 minutes=0
 done | head -n 70
+
