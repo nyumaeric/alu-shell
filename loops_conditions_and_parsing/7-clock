@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Display time for 12 hours and 59 minutes
+hours=0
+minutes=1
+while ((hours <= 12)); do
+while ((minutes <=59)); do
+printf "%2d:%02d\n" "$hours" "$minutes"
+((minutes++))
+done
+((hours++))
+minutes=0
+done | head -n 70
