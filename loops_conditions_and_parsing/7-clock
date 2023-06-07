@@ -2,12 +2,16 @@
 # Display time for 12 hours and 59 minutes
 hours=0
 minutes=1
+counter=0
 while ((hours <= 12)); do
 while ((minutes <= 59)); do
 printf "%02d:%02d\n" "$hours" "$minutes"
-((minutes++))
-Done
+((counter++))
+((minutes++))    
+if ((counter == 70)); then
+break 2
+fi
+done
 ((hours++))
 minutes=0
-done | head -n 70
-
+done
