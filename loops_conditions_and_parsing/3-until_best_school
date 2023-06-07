@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#/* Print: Best School 10 times using until loop
+# Print: Best School 10 times using until loop
 count=0
 until ((count >= 10)); do
 echo "Besst School"
