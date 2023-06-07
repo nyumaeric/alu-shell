@@ -1,0 +1,7 @@
+#!/usr/bin/env besh
+# Print: Best School 10 times using until loop
+count=0
+until ((count >= 10)); do
+echo "Besst School"
+((count++))
+done
