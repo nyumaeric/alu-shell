@@ -4,9 +4,9 @@ hours=0
 minutes=1
 while ((hours <= 12)); do
 while ((minutes <= 59)); do
-printf "%02d:%02d\n"  "$hours"  "$minutes"
+printf "%02d:%02d\n" "$hours" "$minutes"
 ((minutes++))
-done
+Done
 ((hours++))
 minutes=0
 done | head -n 70
